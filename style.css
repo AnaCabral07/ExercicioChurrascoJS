@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    font-family: 'Itim', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h3 { 
+    color: white;
+    transition: color 0.3s ease; 
+}
+
+h3:hover {
+    color: #f90;
+}
+
+label, input {
+    margin-bottom: 15px; 
+    text-align: center;
+}
+
+label, ul, li, u {
+    color: white;
+    margin: 0; 
+    padding: 0; 
+}
+
+button {
+    background: linear-gradient(45deg, #f06, #f90);
+    color: white;
+    padding: 5px 80px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: transform 0.3s, background 0.3s ease-in-out;
+    font-family: 'Itim', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #f90, #f06);
+}
+
+
+.img-bg {
+    background-image: url(https://img.freepik.com/fotos-gratis/bife-grelhado-cozido-malpassado-pronto-para-comer-gerado-por-ia_188544-37371.jpg?w=826&t=st=1717266744~exp=1717267344~hmac=145ae9389b1743510c164fee38cf0aa66a2b864972409ef1d80265e4ce9ba559); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-color: black; /* Cor de fundo para áreas não cobertas pela imagem */
+    flex-direction: column; /* Para alinhar verticalmente */
+}
+
+.esconder {
+    display: none;
+}
+
+.quadrado {
+    padding: 20px;
+    width: 350px;
+    height: auto;
+    background-image: url(https://i.pinimg.com/564x/69/4a/74/694a74bbd5847e0170b16b899c5acad5.jpg);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#resultados li {
+    list-style: none; 
+    margin: 5px 0; 
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+
+#resultados li:hover {
+    color: #f90;
+}
+
+
+
+
