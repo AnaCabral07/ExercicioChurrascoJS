@@ -62,11 +62,11 @@ button:hover {
     display: none;
 }
 
-.quadrado {
+.quadrado { 
     padding: 20px;
     width: 350px;
     height: auto;
-    background-image: url(https://i.pinimg.com/564x/69/4a/74/694a74bbd5847e0170b16b899c5acad5.jpg);
+    background-image: url(https://static4.depositphotos.com/1001944/371/i/450/depositphotos_3717756-stock-photo-fire-isolated-over-black-background.jpg); 
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,6 @@ button:hover {
 #resultados li:hover {
     color: #f90;
 }
-
 
 
 
